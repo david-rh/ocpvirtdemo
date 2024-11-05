@@ -43,6 +43,7 @@
               userData: |-
                 #cloud-config
                 user: cloud-user
+                groups: wheel
                 password: demouser
                 chpasswd:
                   expire: false
